@@ -1,0 +1,22 @@
+package test;
+
+import java.util.Scanner;
+public class test {
+	    public static void main(String args[]) {
+	        int a, b, c;
+	        Scanner scanner = new Scanner(System.in);
+	         System.out.print("Wprowadz a: ");
+	        a = scanner.nextInt();
+	        System.out.print("Wprowadz b: ");
+	        b = scanner.nextInt();
+	        System.out.print("Wprowadz c: ");
+	        c = scanner.nextInt();
+	        
+	        if (a<b+c)
+	        {
+	            System.out.println("Z podanych wartosci mozna utworzyc trojkat.");
+	        }
+	        else
+	        System.out.println("Blad ! Nie da sie utworzyc trojkata z podanych wartosci.");
+	    }
+	}
